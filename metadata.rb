@@ -4,7 +4,7 @@ long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 maintainer       'Washington Botelho'
 maintainer_email 'wbotelhos@gmail.com'
 name             'chef-imagemagick'
-version          '0.2.0'
+version          '0.3.0'
 
 recipe 'chef-imagemagick::compile',      'Compiles the source code.'
 recipe 'chef-imagemagick::config',       'Create config file.'
