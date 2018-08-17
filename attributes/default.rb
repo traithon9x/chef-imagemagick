@@ -13,5 +13,7 @@ default['chef-imagemagick']['source']['folder_path'] = "#{Chef::Config['file_cac
 default['chef-imagemagick']['source']['url']         = "#{node['chef-imagemagick']['source']['uri']}/#{node['chef-imagemagick']['source']['file_name']}"
 
 default['chef-imagemagick']['source']['dependencies'] = %w[
+  libjpeg-dev
+  libpng16-dev
   libwebp-dev
 ]
