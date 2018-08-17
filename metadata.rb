@@ -12,6 +12,8 @@ recipe 'chef-imagemagick::configure',    'Configures the source code.'
 recipe 'chef-imagemagick::dependencies', 'Installs dependencies.'
 recipe 'chef-imagemagick::download',     'Downloads the source.'
 recipe 'chef-imagemagick::extract',      'Extracts the source code.'
+recipe 'chef-imagemagick::jpeg',         'Installs JPEG lib.'
+recipe 'chef-imagemagick::png',          'Installs PNG lib.'
 
 issues_url 'https://github.com/wbotelhos/chef-imagemagick/issues'
 source_url 'https://github.com/wbotelhos/chef-imagemagick'
